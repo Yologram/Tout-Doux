@@ -1,0 +1,103 @@
+body {
+	
+	margin:  auto;
+	text-align: center;
+	background-color: #f06292;
+	font-family: 'Indie Flower', cursive;
+	font-size: x-large ;
+
+}
+
+h1 {
+
+	color: #424242;
+
+}
+
+li {
+
+	list-style-type: none;
+	padding-top: 1%;
+}
+
+ul {
+
+	width: 500px;
+	margin: auto;
+	display: block;
+	text-align: left;
+
+}
+
+
+
+#plo
+
+{
+	width: 500px;
+	height: 75px;
+	border-radius: 10px;
+	font-size: 40px;
+	padding-left: 10px;
+	font-family: 'Indie Flower', cursive;
+	text-decoration: bold ;
+	color: #616161;
+}
+
+#bo li
+
+{
+	background-color: #616161;
+	border-radius: 10px;
+	width: 500px;
+	height: 55px;
+	border: 1px solid #ffcdd2;
+	border-radius: 10px;
+	color: #ffcdd2;
+	font-size: 28px;
+	padding-top: 7px;
+
+}
+
+#button
+{
+	display: inline-table;
+	height: 80px;
+	width: 160px;
+	background-color: #616161;
+	margin-bottom: 5px;
+	border: 2px solid #ffcdd2;
+	border-radius: 10px;
+	color: #ffcdd2;
+	font-size: 28px;
+	text-decoration: bold;
+	padding-top: 7px;
+
+}
+#button:hover
+{
+	cursor: pointer;
+	background-color: #757575;
+}
+.done
+{
+	text-decoration: line-through;
+}
+button
+{
+	background-color: #616161;
+	margin-bottom: 5px;
+	border: 2px solid #ffcdd2;
+	border-radius: 10px;
+	color: #ffcdd2;
+	font-size: 28px;
+	text-decoration: bold;
+	padding-top: 7px;
+	font-family: 'Indie Flower', cursive;
+
+}
+button:hover
+{
+	cursor: pointer;
+	background-color: #757575;
+}
