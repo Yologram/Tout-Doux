@@ -55,3 +55,34 @@ Même sur les balises de base :
 	</body>
 </html>
 
+# Références des fichiers Js et Css
+Les fichiers Css doivent être références dans le <head>.
+Néanmoins, le code Js n'est utile qu'une fois que la page est prête (vous comprenez mainteant l'instruction : $(document).ready(...) ;). C'est pourquoi, afin que le contenu Html se charge plus vite (en fait, avant de télécharger le code Js), la bonne pratique est d'ajouter ses références aux scripts Js tout à la fin de son Html, juste avant de ferme </body>
+<html>
+	<head>
+		...
+	</head>
+	<body>
+		<p>
+			...
+		</p>
+		...
+		<script type="text/javascript" src="jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
+
+
+# Si vous commentez une partie de votre code ...
+Expliquez pourquoi vous l'avez laissé malgré le fait qu'il soit commenté. Mettez vous à la place d'un collègue qui va découvrir votre code et qui doit comprendre sans vous appeler. 
+Et si le code est inutile : REMOVE IT ! 
+
+
+# <title>
+C'est la balise ultra importante : 
+- visibile dans la barre du navigateur
+- nom par défaut si la page est "bookmarké
+- utilisé par les moteurs de recherche pour référencer la page
+
+Donc, soyez pertinents et mettez les mots-clés
+
