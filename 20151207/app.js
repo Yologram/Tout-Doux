@@ -1,5 +1,11 @@
 $(document).ready(function(){
+	/*
+		Si tu penses être payé à la ligne, c'est raté.
+		En sauter autant, n'augmentera pas ta paye ;).
 
+		Du coup, ca diminue le code visible sur une fenêtre
+		et diminue sa lisiblité.
+	*/
 
 	$('ul').on('click','[type="checkbox"]',function(){
 
@@ -72,6 +78,8 @@ $(document).ready(function(){
 		$('#list').text(compteur+" "+"Taches Restantes");
 
 	};
+
+	// Utile ou inutie à garder ?
 
 	/*$('.list').on('click', 'li', function(){
 
